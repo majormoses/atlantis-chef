@@ -3,6 +3,7 @@ include AtlantisCookbook::Helpers
 
 resource_name :atlantis_installer
 provides :atlantis_installer
+unified_mode true
 
 property :checksum, String, regex: /^[a-zA-Z0-9]{64}$/, default: 'a236e7c9df159f8787b143c670f1899dd4bc4349f23ed696468600280fa1266e'
 property :download_base_url, String, default: 'https://github.com/runatlantis/atlantis/releases/download'

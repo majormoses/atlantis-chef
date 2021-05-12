@@ -3,6 +3,7 @@ include AtlantisCookbook::Helpers
 
 resource_name :terragrunt_installer
 provides :terragrunt_installer
+unified_mode true
 
 property :checksum, String, regex: /^[a-zA-Z0-9]{64}$/, default: '3b033389977ca6e7d10bad10514f22fa767c85b76db92befe83e67bafa2c8413'
 property :download_base_url, String, default: 'https://github.com/gruntwork-io/terragrunt/releases/download'
