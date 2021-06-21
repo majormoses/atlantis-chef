@@ -3,6 +3,7 @@ include AtlantisCookbook::Helpers
 
 resource_name :atlantis_config
 provides :atlantis_config
+unified_mode true
 
 property :atlantis_config_group, [String, Integer], default: 'atlantis'
 property :atlantis_config_owner, [String, Integer], default: 'atlantis'

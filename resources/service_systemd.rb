@@ -3,6 +3,7 @@ include AtlantisCookbook::Helpers
 
 resource_name :atlantis_service_systemd
 provides :atlantis_service_systemd
+unified_mode true
 
 property :atlantis_bin_location, String, default: '/usr/local/bin/atlantis'
 property :atlantis_config_name, String, default: 'atlantis.yaml'

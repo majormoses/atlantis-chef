@@ -1,5 +1,6 @@
 resource_name :atlantis_service_upstart
 provides :atlantis_service_upstart
+unified_mode true
 
 property :atlantis_service_template_variables, Hash, default: {
   atlantis_user: 'atlantis',

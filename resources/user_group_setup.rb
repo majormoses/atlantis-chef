@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 resource_name :atlantis_user_group_setup
 provides :atlantis_user_group_setup
+unified_mode true
 
 property :username, String, default: 'atlantis'
 property :groupname, String, default: 'atlantis'
